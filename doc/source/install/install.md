@@ -391,9 +391,7 @@ This section is required only for Kolla based OpenStack deployment.
 | internal_vip_address | N | Any unused IP address in the management network. |
 | kolla_registry | N | IP of node where docker registry has to be created. In current version it should be controller node IP. |
 | kolla_registry_port | N | Port to be used for docker registry. |
-| internal_interface | N | Interface for the OpenStack internal api end points. |
 | external_vip_address | N | Ip address for OpenStack external end points. |
-| external_interface | N | Interface for the OpenStack external api end points. |
 | base_size | Y | Base size for the physical volume of the cinder. |
 | count | Y | Total count for the physical volume created. |
 
